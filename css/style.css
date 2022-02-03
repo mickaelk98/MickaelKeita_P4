@@ -777,17 +777,17 @@ h4 {
 }
 
 .tc-white {
-  color: #f3976c;
+  color: #fff;
 }
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff;
+  color: #000;
 }
 
 .btn-atomic-tangerine:hover {
   background: #c27956;
-  color: #ffffff;
+  color: #000;
 }
 
 .ltc-white {
@@ -847,6 +847,10 @@ h4 {
   }
   .nav-center.navbar .nav {
     max-width: 100%;
+  }
+  #bloc-7 .container .row {
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -1042,7 +1046,61 @@ h4 {
     text-align: center;
   }
 }
+/**acceuil*/
+figure,
+a,
+footer h5,
+footer .col-sm-4 ul,
+footer {
+  color: #000;
+}
+
+a {
+  color: #1f1f1f;
+}
+
+figure p,
+figure cite {
+  font-size: 18px;
+}
+
+figure blockquote {
+  border: none;
+}
+
+footer .white {
+  color: #000;
+  font-size: 20px;
+}
+
+footer {
+  color: #000;
+}
+
+footer h5 {
+  font-size: 22px;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+footer .col-sm-4,
+footer h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  font-size: 20px;
+}
+
+footer .col-sm-4 ul {
+  list-style-type: none;
+}
 /**contact form**/
+.col-sm-12 > p {
+  font-size: 15px;
+}
+
 form {
   width: 80%;
   margin: 0 auto;
@@ -1071,4 +1129,17 @@ form {
 button {
   border: none;
   border-radius: 50px;
+}
+
+/** Contact adresse */
+address p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+@media screen and(min-width: 767px) {
+  .address {
+    height: 100%;
+  }
 }
